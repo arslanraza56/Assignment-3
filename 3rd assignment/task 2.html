@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+      Hello   
+</body>
+<script>
+
+    age = prompt("Enter your age to check your eligibility for buying(Alcohol)")
+    //alert("Welcome to the venue")
+    age = Number(age);
+    console.log(typeof age)
+      let message;
+    if(age>= 21){
+       
+       message=("Welcome sir,you are eligible to purchase Alcohol")
+    }
+    else if(age >= 19){
+       
+        message=("We are very sorry you are not eligible to purchase Alcohol due to age limitations but you can purchase a vanue")
+    }
+    else{
+     message=("you are under 18")
+    }
+     console.log(message);
+
+</script>
+</html>
